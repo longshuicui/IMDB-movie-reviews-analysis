@@ -1,17 +1,15 @@
-Êı¾İ´æ·ÅµØÖ·acllmdbÎÄ¼ş¼Ğ 
-³ÌĞò½ö°üÀ¨ÑµÁ·¹ı³Ì£¬ËùÓÃÊı¾İ¼¯Îªacllmdb/train
-Êı¾İÔ¤´¦Àí¹ı³Ì data_preprocess.py
-Êı¾İ×ªids feature.py  ½á¹ûÓĞidsMatrix.npy  labelsMatrix.npy 
-wordsList.npy ÊÇ´Êµä£¬wordVectors.npyÊÇÔ¤ÑµÁ·µÄ´ÊÏòÁ¿
+æ•°æ®åœ°å€ï¼šhttp://ai.stanford.edu/~amaas/data/sentiment/
 
-Ä£ĞÍÑ¡È¡£º£¨ÍøÂç²ãÊı¾ùÎªµ¥²ã£¡£¡£¡£©
-¾²Ì¬LSTM
-¶¯Ì¬LSTM          p=0.823, r=0.825, f=0.824
-Ë«Ïò¾²Ì¬LSTM
-Ë«Ïò¶¯Ì¬LSTM+attention  p=0.847, r=0.860, f=0.853
-Ë«Ïò¶¯Ì¬LSTM
+åˆ†ç±»æ¨¡å‹æœ‰ï¼š
+BiLSTM+Attention
+å•å‘LSTM
 TextCNN
-CNN+RNN½áºÏ £¨CNNÌáÈ¡ÌØÕ÷£¬RNN´¦ÀíÊ±ĞòĞÅÏ¢£©
+RCNN
+Capsule
+Transformerç¼–ç å™¨ç»“æ„
 
-ÑµÁ·ºÃµÄÄ£ĞÍ´æ·ÅÓÚmodelÖĞ
+æœªåŒ…æ‹¬
+CharCNN
+fasttext
+
 
